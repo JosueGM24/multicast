@@ -1,0 +1,839 @@
+
+.inputLogin {
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 14px;
+    -fx-border-style: solid;
+    -fx-border-color: transparent;
+    -fx-border-width: 1.5px;
+    -fx-pref-height: 38px;
+    -fx-background-radius: 7px;
+    -fx-alignment: center;
+    -fx-transition: .5s;
+    -fx-border-radius: 7px;
+    -fx-font-weight: bold;
+    -fx-border-color: #F3F3F3;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+}
+.inputLogin:focused {
+    -fx-border-color: #00A3FF;
+    -fx-background-color: #FFF;
+
+}
+.inputLogin:disabled {
+    -fx-background-color: #FFF;
+    -fx-opacity: 1;
+    -fx-text-fill: black;
+}
+.btnPrimary {
+    -fx-background-color: #2078DC;
+    -fx-font-size: 15px;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+
+}
+.btnPrimary:focused {
+    -fx-border-color: #00A3FF;
+
+}
+.toggle-button {
+    -fx-background-color: #D5E4F6;
+    -fx-font-size: 15px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: #373737;
+    -fx-alignment: center ;
+    -fx-border-radius: 9px;
+}
+.toggle-button:disabled {
+    -fx-background-color: #00A3FF;
+    -fx-text-fill: #222222;
+    -fx-alignment: center ;
+}
+.toggle-button:selected {
+    -fx-background-color: #2078DC;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.password{
+    -fx-background-color: #fff;
+    -fx-background-radius: 11px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+    -fx-alignment: center ;
+    -fx-border-radius: 9px;
+    -fx-background-image: url("icons/iconsApp/lock.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.password:selected {
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-background-color: #ECF6F8;
+    -fx-background-image: url("icons/iconsApp/unlock.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.btnMinimal {
+    -fx-background-color: #373B3E;
+    -fx-font-size: 20px;
+    -fx-background-radius: 21px;
+    -fx-padding: 15;
+    -fx-text-fill: #ddd;
+    -fx-cursor: hand;
+}
+.toggleGreen {
+    -fx-background-color: #D4FFCF;
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-text-fill: #788A70;
+    -fx-alignment: center ;
+}
+.toggleGreen:selected {
+    -fx-background-color: #579B51;
+    -fx-text-fill: white;
+}
+.toggleYellow {
+    -fx-background-color: #FFF8C4;
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-text-fill: #9E9A7A;
+    -fx-alignment: center ;
+}
+.toggleYellow:selected {
+    -fx-background-color: #FFEF76;
+    -fx-text-fill: #000000;
+}
+.toggleRed {
+    -fx-background-color: #FFC4C4;
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-text-fill: #977575;
+    -fx-alignment: center ;
+}
+.toggleRed:selected {
+    -fx-background-color: #FF5050;
+    -fx-text-fill: white;
+}
+.toggleBlack {
+    -fx-background-color: #7B7B7B;
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-text-fill: #F5F5F5;
+    -fx-alignment: center ;
+}
+.toggleBlack:selected {
+    -fx-background-color: #2C2C2C;
+    -fx-text-fill: #fff;
+}
+
+
+.btnSecondary {
+    -fx-background-color: transparent;
+    -fx-font-size: 17px;
+    -fx-pref-height: 38px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: #5B8EC5;
+    -fx-alignment: center ;
+}
+.btnConfirm {
+    -fx-background-color: #24CCA7;
+    -fx-font-size: 17px;
+    -fx-pref-height: 38px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: #FFF;
+    -fx-alignment: center ;
+}
+.btnConfirm:disabled {
+    -fx-background-color: #DDD;
+    -fx-text-fill: #0F0F0F;
+}
+.btnSecondaryWhite {
+    -fx-background-color: #FFF;
+    -fx-font-size: 17px;
+    -fx-pref-height: 38px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: #5B8EC5;
+    -fx-alignment: center ;
+    -fx-font-weight: bold;
+}
+.btnSecondary:disabled {
+    -fx-text-fill: gray;
+    -fx-background-color: #F5F5F5;
+    -fx-opacity: 1;
+
+}
+.btnSecondaryBold {
+    -fx-background-color: #F0F7F4;
+    -fx-font-size: 15px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0098B7;
+    -fx-alignment: center ;
+}
+.btnSecondaryBold:disabled {
+    -fx-background-color: #F5F5F5;
+    -fx-text-fill: gray;
+}
+.btnPrimaryRed {
+    -fx-background-color: #F86B6B;
+    -fx-font-size: 15px;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+
+}
+.btnPrimaryRed:focused {
+    -fx-border-color: #FF5B5B;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-color: #A3A3A3;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+
+.combo-box-popup .list-view
+{
+    -fx-background-color: white;
+    -fx-background-radius: 7;
+    -fx-margin: 5px 0 0 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.1) , 16, 0.0 , 0 , 4 );
+}
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+    -fx-pref-height: 45px;
+    -fx-background-radius: 7px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-text-fill: #A3A3A3;
+    /* No alternate highlighting */
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-text-fill: #4C7BEA;
+}
+
+.combo-box-base
+{
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 17px;
+    -fx-border-color: #DEDEDE;
+    -fx-border-width: 0;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-alignment: center ;
+    -fx-cursor: hand;
+}
+.combo-box .list-cell:selected {
+    -fx-alignment: center;
+    -fx-text-fill: #000;
+}
+.combo-box-base:selected
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";
+    -fx-background-color: red;
+    -fx-background-radius: 7px;
+    -fx-padding: 0;
+}
+
+.combo-box-base:hover
+{
+    -fx-color: #4C7BEA;
+}
+
+.combo-box-base:showing
+{
+    -fx-color: -fx-pressed-base;
+}
+.combo-box .arrow-button .arrow {
+    -fx-shape: null;
+    -fx-background-color: transparent;
+}
+.combo-box .arrow-button {
+    -fx-background-image: url("icons/iconsApp/expandArrow2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+.buttonNotification {
+    -fx-background-color: transparent;
+    -fx-background-radius: 26px;
+    -fx-cursor: hand;
+}
+.progress-bar .track{
+    -fx-background-color: #F0F7F4;
+    -fx-padding: 0;
+    -fx-background-radius: 15px;
+}
+.progress-bar .bar{
+    -fx-background-color: #0098B7;
+    -fx-background-radius: 15px;
+    -fx-padding: 5px;
+        -fx-background-insets: 0;
+}
+.progressBarPlanner .track{
+    -fx-background-color: white;
+    -fx-padding: 0;
+    -fx-effect:  dropshadow(gaussian, rgba(0, 0, 0, 0.1), 20, 0.0, 0, 0);
+}
+.progressBarPlanner .bar{
+    -fx-background-color: #4C7BEA;
+    -fx-background-radius: 15px;
+    -fx-padding: 5px;
+}
+.chart-plot-background {
+    -fx-background-color: white;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: white;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: white;
+}
+.chart-alternative-row-fill {
+    -fx-fill: white;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+.btnClose {
+    -fx-background-color: #fff;
+    -fx-background-image: url("icons/iconsApp/closeBlack20.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-cursor: hand;
+    -fx-background-radius: 0 0 0 6px;
+}
+.btnClose:hover {
+    -fx-background-color: #FF3939;
+    -fx-background-image: url("icons/iconsApp/closeWhite20.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+    -fx-background-size: 20 20;
+}
+.btnLogout {
+    -fx-background-color:  TRANSPARENT;
+    -fx-background-image: url("icons/iconsApp/icons8_Logout_20px_1.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-cursor: hand;
+    -fx-background-radius: 0 0 6px 6px;
+}
+.btnLogout:hover {
+    -fx-background-image: url("icons/iconsApp/icons8_Logout_20px_4.png");
+    -fx-background-color: #4A4D4F;
+}
+.bgLogin1 {
+    -fx-background-image: url("backgroundsLogin/bgLogin1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1513;
+    -fx-background-position: center center;
+}
+.bgLogin2 {
+    -fx-background-image: url("backgroundsLogin/bgLogin2.jpg");
+    -fx-background-repeat: stretch;
+        -fx-background-size: 1513;
+    -fx-background-position: center center;
+}
+.bgLogin3 {
+    -fx-background-image: url("backgroundsLogin/bgLogin3.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1513;
+    -fx-background-position: center center;
+}
+.bgLogin4 {
+    -fx-background-image: url("backgroundsLogin/bgLogin4.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1513;
+    -fx-background-position: center center;
+}
+.text-area{
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 17px;
+    -fx-border-color: #DEDEDE;
+    -fx-border-width: 0;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px;
+}
+.text-area .scroll-pane:fitToWidth:fitToHeight .viewport .content .text{
+    -fx-text-alignment: center ;
+}
+.text-area .scroll-pane:fitToWidth:fitToHeight .viewport .content {
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px;
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px;
+}
+.text-area .scroll-pane:fitToWidth:fitToHeight .viewport{
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px;
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-area .scroll-pane .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.text-area .scroll-pane .thumb {
+    -fx-background-color: #93C2FF;
+    -fx-background-radius: 3em;
+    -fx-padding: 6em;
+}
+.btnAddStore {
+    -fx-background-image: url("icons/iconsApp/iconPlus.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15;
+    -fx-cursor: hand;
+    -fx-background-color: #F0F7F4;
+    -fx-font-size: 15px;
+    -fx-background-radius: 16px;
+    -fx-alignment: center ;
+}
+.btnSubtract {
+    -fx-background-image: url("icons/iconsApp/iconSubtract.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15;
+    -fx-cursor: hand;
+    -fx-background-color: #F0F7F4;
+    -fx-font-size: 15px;
+    -fx-background-radius: 16px;
+    -fx-alignment: center ;
+}
+.btnUp {
+    -fx-background-image: url("icons/iconsApp/collapseArrow.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+    -fx-alignment: center ;
+}
+.btnDown {
+    -fx-background-image: url("icons/iconsApp/expandArrow2.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+    -fx-alignment: center ;
+}
+.btnAdd {
+    -fx-background-color: #FFD55D;
+    -fx-cursor: hand;
+    -fx-background-radius: 30px;
+    -fx-background-image: url("icons/iconsApp/iconAddLittle.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 20;
+}
+.btnAddBig {
+    -fx-background-color: #F3A446;
+    -fx-cursor: hand;
+    -fx-background-radius: 30px;
+    -fx-background-image: url("icons/iconsApp/iconAdd.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 30;
+}
+.toggleButtonCalendar {
+    -fx-background-color: transparent;
+    -fx-background-radius: 11px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+.toggleButtonCalendarToday {
+    -fx-background-color: #4C575C;
+    -fx-background-radius: 11px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+    -fx-border-color: #9EFFC6;
+    -fx-border-width: 0;
+    -fx-border-radius: 11px;
+}
+.toggleButtonCalendarToday:selected {
+    -fx-background-color: #3A4246;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+.toggleButtonCalendar:selected{
+    -fx-background-color: #D3D3D3;
+    -fx-text-fill: white;
+}
+.chart-bar {
+    -fx-background-color: #0098B7;
+    -fx-background-radius: 16;
+}
+.radio-button{
+    -fx-background-color: transparent;
+    -fx-font-size: 17px;
+    -fx-background-radius: 21px;
+    -fx-cursor: hand;
+    -fx-text-fill: #373737;
+    -fx-alignment: center ;
+    -fx-border-radius: 9px;
+    -fx-padding: 6px 14px 7px 7px;
+}
+.radio-button .radio {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.radio-button .radio .dot {
+    -fx-padding: 0;
+}
+.radio-button:selected {
+    -fx-background-color: #4C7BEA;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.radioSettings {//here
+    -fx-background-radius: 9px;
+    -fx-background-color: #ECF6F8;
+    -fx-text-fill: #2E6577;
+    -fx-padding: 6px 14px 7px 7px;
+}
+.radioSettings:selected {
+    -fx-background-color: #4C7BEA;
+    -fx-text-fill: white;
+}
+.showAndHidePasswords {
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: TRANSPARENT;
+    -fx-background-image: url("icons/iconsApp/newIcons/icons8_eye_20px_2.png");
+    -fx-background-position: center;
+    -fx-pref-height: 38;
+    -fx-pref-width: 45;
+
+}
+.showAndHidePasswords:selected {
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #4C7BEA;
+    -fx-background-image: url("icons/iconsApp/newIcons/icons8_eye_20px.png");
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+}
+.btnOptions {
+    -fx-background-color: white;
+    -fx-background-radius: 14px 0 0 14px;
+}
+.radioButtonOptions{
+    -fx-background-color: transparent;
+    -fx-background-radius: 14px 0 0 14px;
+    -fx-cursor: hand;
+    -fx-alignment: center ;
+    -fx-font-size: 1px;
+}
+.radioButtonOptions .radio {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.radioButtonOptions .radio .dot {
+    -fx-padding: 0;
+}
+.radioButtonOptions:selected {
+    -fx-background-color: #DFDFDF;
+}
+.presentation {
+    -fx-background-image: url("images/presentationPixkua.png");
+    -fx-background-size: 650px;
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+}
+.simpleButton {
+    -fx-background-color: #4C7BEA;
+    -fx-font-size: 17px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+.radioButton{
+    -fx-background-color: red;
+    -fx-font-size: 17px;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+    -fx-alignment: center ;
+    -fx-padding: 0;
+    -fx-border-width: 5;
+    -fx-border-color: #FFF;
+}
+.radioButton .radio {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.radioButton .radio .dot {
+    -fx-padding: 0;
+}
+.radioButton:selected {
+    -fx-border-color: #8EB5C5;
+    -fx-border-width: 5;
+}
+.toggleButtonActiveOffer {
+    -fx-background-image: url("icons/iconsApp/closeBlack20.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-radius: 9px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-alignment: center;
+}
+.toggleButtonActiveOffer:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_closeBlack20_32px_1.png");
+}
+.radioMenuHome {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_deviation_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuHome:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_deviation_32px_1.png");
+}
+.radioMenuStore {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_stall_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuStore:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_stall_32px_1.png");
+}
+.radioMenuUser {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_user_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuUser:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_user_32px_1.png");
+}
+.radioMenuCustomer {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_member_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuCustomer:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_member_32px_1.png");
+}
+.radioMenuPlanner {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_calendar_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuPlanner:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_calendar_32px_1.png");
+}
+.radioMenuStock {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_stacking_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+}
+.radioMenuStock:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_stacking_32px_1.png");
+}.radioMenuOrder {
+    -fx-background-radius: 17px;
+    -fx-cursor: hand;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("icons/iconsMenu/icons8_procurement_32px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px;
+ }
+ .radioMenuOrder:selected {
+       -fx-background-color: #e6ebfe;
+       -fx-background-image: url("icons/iconsMenu/icons8_procurement_32px_1.png");
+ }
+ .radioMenuAnalytics {
+     -fx-background-radius: 14px;
+     -fx-cursor: hand;
+     -fx-pref-width: 45px;
+     -fx-pref-height: 45px;
+     -fx-background-color: #FFFFFF;
+     -fx-background-image: url("icons/iconsMenu/icons8_statistics_32px.png");
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: 28px;
+ }
+ .radioMenuAnalytics:selected {
+       -fx-background-color: #e6ebfe;
+       -fx-background-image: url("icons/iconsMenu/icons8_statistics_32px_1.png");
+ }
+ .radioMenuDeal {
+    -fx-background-radius: 14px;
+     -fx-cursor: hand;
+     -fx-pref-width: 45px;
+     -fx-pref-height: 45px;
+     -fx-background-color: #FFFFFF;
+     -fx-background-image: url("icons/iconsMenu/icons8_accounting_32px.png");
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: 28px;
+ }
+ .radioMenuDeal:selected {
+      -fx-background-color: #e6ebfe;
+      -fx-background-image: url("icons/iconsMenu/icons8_accounting_32px_1.png");
+ }
+ .radioMenuOffers {
+     -fx-background-radius: 14px;
+     -fx-cursor: hand;
+     -fx-pref-width: 45px;
+     -fx-pref-height: 45px;
+     -fx-background-color: #FFFFFF;
+     -fx-background-image: url("icons/iconsMenu/icons8_voucher_32px.png");
+     -fx-background-position: center;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: 28px;
+ }
+ .radioMenuOffers:selected {
+     -fx-background-color: #e6ebfe;
+     -fx-background-image: url("icons/iconsMenu/icons8_voucher_32px_1.png");
+ }
+
+.toggleSize {
+    -fx-background-color: rgba(255,255,255,0.44);
+    -fx-font-size: 15px;
+    -fx-background-radius: 40px;
+    -fx-border-radius: 40px;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+}
+.toggleSize:selected {
+    -fx-text-fill: #000000;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #757575;
+}
+
+
+
+.text-area:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.text-area:readonly .scroll-pane:fitToWidth .scroll-bar:vertical .decrement-button .decrement-arrow,
+.text-area:readonly .scroll-pane:fitToWidth .scroll-bar:vertical .increment-button .increment-arrow{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-area .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.text-area .scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-background-color: #4C7BEA;
+    -fx-background-radius: 1em;
+
+}
+.text-area:readonly .viewport {
+}
+
+.text-area:readonly {
+-fx-background-color:#F7F8FA;
+-fx-border-color: #F3F3F3;
+-fx-border-width: 2px;
+-fx-border-radius: 10px;
+-fx-background-radius: 10px;
+-fx-font-family: 'Lucida Console';
+-fx-opacity: 1;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="multicast.jnlp">
+  <information>
+    <title>Receiver MC</title>
+    <vendor>Logibrandia</vendor>
+    <description>Receiver MC</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="aopalliance-1.0.jar" size="4467" download="eager" />
+    <jar href="checker-qual-3.12.0.jar" size="208835" download="eager" />
+    <jar href="commons-codec-1.11.jar" size="335042" download="eager" />
+    <jar href="commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="error_prone_annotations-2.7.1.jar" size="14835" download="eager" />
+    <jar href="failureaccess-1.0.1.jar" size="4617" download="eager" />
+    <jar href="guava-31.0.1-jre.jar" size="2974216" download="eager" />
+    <jar href="guice-5.0.1.jar" size="773293" download="eager" />
+    <jar href="hsqldb-2.7.0.jar" size="1640002" download="eager" />
+    <jar href="httpclient-4.5.13.jar" size="780321" download="eager" />
+    <jar href="httpclient5-5.3.1.jar" size="861741" download="eager" />
+    <jar href="httpcore-4.4.13.jar" size="328593" download="eager" />
+    <jar href="httpcore5-5.2.4.jar" size="855013" download="eager" />
+    <jar href="httpcore5-h2-5.2.4.jar" size="237145" download="eager" />
+    <jar href="j2objc-annotations-1.3.jar" size="8781" download="eager" />
+    <jar href="jackson-annotations-2.12.3.jar" size="75703" download="eager" />
+    <jar href="jackson-annotations-2.13.1.jar" size="75717" download="eager" />
+    <jar href="jackson-core-2.12.3.jar" size="365220" download="eager" />
+    <jar href="jackson-core-2.13.1.jar" size="374588" download="eager" />
+    <jar href="jackson-databind-2.12.3.jar" size="1515756" download="eager" />
+    <jar href="jackson-databind-2.13.1.jar" size="1534017" download="eager" />
+    <jar href="jackson-datatype-guava-2.13.1.jar" size="88023" download="eager" />
+    <jar href="jackson-datatype-jdk8-2.13.1.jar" size="34804" download="eager" />
+    <jar href="jackson-datatype-joda-2.13.1.jar" size="76191" download="eager" />
+    <jar href="jackson-datatype-jsr310-2.13.1.jar" size="121206" download="eager" />
+    <jar href="jackson-module-parameter-names-2.13.1.jar" size="9515" download="eager" />
+    <jar href="javax.inject-1.jar" size="2497" download="eager" />
+    <jar href="javax.json-1.1.4.jar" size="128770" download="eager" />
+    <jar href="javax.json-api-1.0.jar" size="19754" download="eager" />
+    <jar href="json-20211205.jar" size="70678" download="eager" />
+    <jar href="json-20220320.jar" size="70939" download="eager" />
+    <jar href="json-218.jar" size="36015" download="eager" />
+    <jar href="jsr305-3.0.2.jar" size="19936" download="eager" />
+    <jar href="lib\Util.jar" size="11957" download="eager" />
+    <jar href="lib\aopalliance-1.0.jar" size="4467" download="eager" />
+    <jar href="lib\checker-qual-3.12.0-javadoc.jar" size="900991" download="eager" />
+    <jar href="lib\checker-qual-3.12.0.jar" size="208835" download="eager" />
+    <jar href="lib\error_prone_annotations-2.7.1-javadoc.jar" size="121841" download="eager" />
+    <jar href="lib\error_prone_annotations-2.7.1.jar" size="14835" download="eager" />
+    <jar href="lib\failureaccess-1.0.1-javadoc.jar" size="34915" download="eager" />
+    <jar href="lib\failureaccess-1.0.1.jar" size="4617" download="eager" />
+    <jar href="lib\guava-31.0.1-jre-javadoc.jar" size="8482041" download="eager" />
+    <jar href="lib\guava-31.0.1-jre.jar" size="2974216" download="eager" />
+    <jar href="lib\guice-5.0.1-javadoc.jar" size="1129254" download="eager" />
+    <jar href="lib\guice-5.0.1.jar" size="773293" download="eager" />
+    <jar href="lib\hsqldb-2.7.0-javadoc.jar" size="1784286" download="eager" />
+    <jar href="lib\hsqldb-2.7.0.jar" size="1640002" download="eager" />
+    <jar href="lib\j2objc-annotations-1.3-javadoc.jar" size="68994" download="eager" />
+    <jar href="lib\j2objc-annotations-1.3.jar" size="8781" download="eager" />
+    <jar href="lib\jackson-annotations-2.13.1-javadoc.jar" size="416891" download="eager" />
+    <jar href="lib\jackson-annotations-2.13.1.jar" size="75717" download="eager" />
+    <jar href="lib\jackson-core-2.13.1-javadoc.jar" size="1356128" download="eager" />
+    <jar href="lib\jackson-core-2.13.1.jar" size="374588" download="eager" />
+    <jar href="lib\jackson-databind-2.13.1-javadoc.jar" size="5879726" download="eager" />
+    <jar href="lib\jackson-databind-2.13.1.jar" size="1534017" download="eager" />
+    <jar href="lib\jackson-datatype-guava-2.13.1-javadoc.jar" size="325042" download="eager" />
+    <jar href="lib\jackson-datatype-guava-2.13.1.jar" size="88023" download="eager" />
+    <jar href="lib\jackson-datatype-jdk8-2.13.1-javadoc.jar" size="122183" download="eager" />
+    <jar href="lib\jackson-datatype-jdk8-2.13.1.jar" size="34804" download="eager" />
+    <jar href="lib\jackson-datatype-joda-2.13.1-javadoc.jar" size="281347" download="eager" />
+    <jar href="lib\jackson-datatype-joda-2.13.1.jar" size="76191" download="eager" />
+    <jar href="lib\jackson-datatype-jsr310-2.13.1-javadoc.jar" size="415961" download="eager" />
+    <jar href="lib\jackson-datatype-jsr310-2.13.1.jar" size="121206" download="eager" />
+    <jar href="lib\jackson-module-parameter-names-2.13.1-javadoc.jar" size="39779" download="eager" />
+    <jar href="lib\jackson-module-parameter-names-2.13.1.jar" size="9515" download="eager" />
+    <jar href="lib\javax.inject-1-javadoc.jar" size="32609" download="eager" />
+    <jar href="lib\javax.inject-1.jar" size="2497" download="eager" />
+    <jar href="lib\javax.json-api-1.0-javadoc.jar" size="200783" download="eager" />
+    <jar href="lib\javax.json-api-1.0.jar" size="19754" download="eager" />
+    <jar href="lib\json-20211205-javadoc.jar" size="175873" download="eager" />
+    <jar href="lib\json-20211205.jar" size="70678" download="eager" />
+    <jar href="lib\json-20220320-javadoc.jar" size="175978" download="eager" />
+    <jar href="lib\json-20220320.jar" size="70939" download="eager" />
+    <jar href="lib\json-218-javadoc - copia.jar" size="434531" download="eager" />
+    <jar href="lib\json-218-javadoc.jar" size="434531" download="eager" />
+    <jar href="lib\json-218.jar" size="36015" download="eager" />
+    <jar href="lib\jsr305-3.0.2-javadoc.jar" size="172992" download="eager" />
+    <jar href="lib\jsr305-3.0.2.jar" size="19936" download="eager" />
+    <jar href="multicast.jar" size="179667" download="eager" />
+    <jar href="slf4j-api-1.7.36.jar" size="41125" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="multicast" />
+  <update check="background"/>
+</jnlp>

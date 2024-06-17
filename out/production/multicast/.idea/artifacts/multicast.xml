@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="multicast">
+    <output-path>$PROJECT_DIR$/out/artifacts/multicast</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="Receiver MC" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/styles/iconMC.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Receiver MC" />
+        <option name="vendor" value="Logibrandia" />
+        <option name="version" value="1.0.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="multicast.jar">
+        <element id="module-output" name="multicast" />
+      </element>
+      <element id="library" level="application" name="aopalliance-1.03" />
+      <element id="library" level="application" name="com.fasterxml.jackson.core:jackson-annotations:2.12.3" />
+      <element id="library" level="application" name="com.fasterxml.jackson.core:jackson-core:2.12.3" />
+      <element id="library" level="application" name="com.fasterxml.jackson.core:jackson-databind:2.12.3" />
+      <element id="library" level="application" name="org.apache.httpcomponents.client5:httpclient5:5.3.1" />
+      <element id="library" level="application" name="org.apache.httpcomponents:httpclient:4.5.13" />
+      <element id="library" level="application" name="org.glassfish:javax.json:1.1.4" />
+    </root>
+  </artifact>
+</component>
